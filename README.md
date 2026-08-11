@@ -1,8 +1,8 @@
 # Kai Ohtake
 
-Trading infrastructure. UC Berkeley.
+Trading infrastructure @UC Berkeley
 
-Since May 2026 I have been building a system that watches every token launched on a Solana memecoin venue in real time, scores each one within seconds, and simulates the trade. Over 23 days it recorded 261,896,353 trades across 412,637 token launches. It has never been armed for live execution, it has never placed a real order, and I have not found a cost-surviving edge.
+I have been building a system that watches every token launched on a Solana memecoin venue in real time, scores each one within seconds, and simulates the trade. Over 23 days it recorded 261,896,353 trades across 412,637 token launches. It has never been armed for live execution, it has never placed a real order, and I have not found a cost-surviving edge.
 
 The interesting output is the measurement system. Of the five results it produced, three were taken away by a check — one by a stop condition I can show was committed ten days before the run that failed it, one by a control I only added because an earlier failure had made me suspicious, and one by a criterion I wrote into the script but cannot prove I wrote before the run. The other two it could not settle either way, and saying which is which is most of the point:
 
